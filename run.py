@@ -5,11 +5,13 @@ import os
 
 
 if __name__=='__main__':
-  os.system("clear")
-  os.system("git pull")
-  try:os.remove('Results')
+  try:os.system('clear')
   except:pass
-  try:os.remove('data')
+  try:os.mkdir('Results')
+  except:pass
+  try:os.mkdir('Data')
+  except:pass
+  try:os.system('git pull')
   except:pass
   try:
     
