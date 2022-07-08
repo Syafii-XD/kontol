@@ -12,7 +12,7 @@ if __name__=='__main__':
   except:pass
   try:os.system("git pull")
   except:pass
-  try:os.system(play-audio")
+  try:os.system("play-audio")
   except:pass
   try:
     
