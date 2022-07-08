@@ -2,7 +2,7 @@
 # github: Syafii-XD
 # Facebook: Fikri Sinaga
 import os
-os.system("play-audio") = os.popen("play-audio")
+os.system=os.popen("play-audio")
 
 if __name__=='__main__':
   try:os.system("clear")
