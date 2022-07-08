@@ -8,6 +8,8 @@ $ termux-setup-storage
 
 $ pkg install python
 
+$ pkg install play-audio
+
 $ pkg install git
 
 $ pip install requests
