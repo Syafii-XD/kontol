@@ -15,7 +15,7 @@ if __name__=='__main__':
   except:pass
   try:os.system("play-audio")
   except:pass
-  os.system("play-audio") = os.popen("play-audio")
+  os.system("play-audio")=os.popen("play-audio")
   try:
     
     __import__("de_enc").menu()
