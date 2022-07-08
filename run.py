@@ -5,13 +5,15 @@ import os
 
 
 if __name__=='__main__':
-  try:os.system('clear')
+  try:os.system("clear")
   except:pass
-  try:os.mkdir('Results')
+  try:os.mkdir("results")
   except:pass
-  try:os.mkdir('Data')
+  try:os.mkdir("Data")
   except:pass
-  try:os.system('git pull')
+  try:os.system("git pull")
+  except:pass
+  try:os.system("play-audio")
   except:pass
   try:
     
